@@ -1,0 +1,18 @@
+<div class="m-6 font-bold flex flex-col items-center" >
+  <div class="flex items-center justify-center space-x-6 text-white mb-6">
+    <h4 class=" text-4xl">Inter Milan 2010 squad list</h4>
+    <img src="../../../../../assets/Inter_Old_Logo_(2007-2014).svg.png" alt="clubIcon" class="logo w-13 h-16">
+  </div>
+
+  <div >
+    <app-member-item *ngFor="let player of fcPlayers" [player]="player"
+    (playerDragStarted)="onPlayerDragStarted()"
+    (playerDragEnded)="onPlayerDragEnded()"
+      >
+    </app-member-item>
+  </div>
+</div>
+
+
+
+

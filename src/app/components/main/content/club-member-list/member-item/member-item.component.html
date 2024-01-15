@@ -1,0 +1,14 @@
+<div>
+<div class="clubMember flex m-2 items-center justify-center"  cdkDrag [cdkDragData]="player"
+(cdkDragStarted)="onDragStarted()"
+(cdkDragEnded)="onDragEnded()">
+  <img [src]="player.photo" alt="player.name" class="memberIcon">
+  <div class="container">
+    <div class="flex gap-1.5">
+      <span>{{ player.clubNumber }}</span>
+      <span>{{ player.name }}</span>
+      <span>{{ player.surname }}</span>
+    </div>
+  </div>
+</div>
+</div>
