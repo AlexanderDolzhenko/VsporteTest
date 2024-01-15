@@ -7,9 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 Run `json-server -w db.json` for db.json database. Navigation Resources:
-  http://localhost:3000/players
-  http://localhost:3000/manager
-  http://localhost:3000/place
+  `http://localhost:3000/players`,
+  `http://localhost:3000/manager`,
+  `http://localhost:3000/place`.
 
 ## Code scaffolding
 
