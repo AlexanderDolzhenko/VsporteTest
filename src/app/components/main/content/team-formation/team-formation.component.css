@@ -1,0 +1,12 @@
+.containerFormation {
+  display: block;
+  width: 1130px;
+  height: 1250px;
+  border-radius: 10px;
+  border: thick double rgb(234, 179, 8);
+  background-image: url('../../../../../assets/field.png');
+  background-size: auto;
+}
+
+
+

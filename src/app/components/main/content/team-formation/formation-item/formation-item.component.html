@@ -1,0 +1,26 @@
+<div >
+<div style="position: absolute;" [style.top]="position.top" [style.left]="position.left"
+class="card w-52 h-52"
+cdkDropList (cdkDropListDropped)="onDrop($event)"
+>
+<div ngIf="dropped" *ngFor="let player of fcPlayers" [player]="player" class="flex flex-col items-center justify-center">
+  <img [src]="player.photo" alt="" class="w-32 h-32">
+  <div class="container text-center">
+    <div class="inline-flex items-center gap-1.5 font-bold text-base">
+      <h4>{{player.clubNumber}}</h4>
+      <p>{{player.surname}}</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
